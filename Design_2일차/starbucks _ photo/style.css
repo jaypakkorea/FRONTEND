@@ -1,7 +1,61 @@
 *{
-    margin : 0;
-    padding : 0 ;
-    box-sizing : border-box
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.container .nav_background {
+    background-color: white;
+
+    height : 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    color : white;
+
+
+}
+
+.container .header {
+    width : 80%;
+    height : 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container .header h1 a img{
+    height : 75px;
+    width : 75px;
+}
+
+.container .header h1 a{
+    text-decoration: none;
+}
+
+.container .nav ul li {
+    display : inline-block;
+    margin:0 10px;
+}
+
+.container .nav ul li a {
+    text-decoration: none;
+    color : black;
+}
+
+.container .nav ul li a:hover{
+    color: rgb(0, 79, 0);
 }
 
 body {
@@ -21,11 +75,11 @@ section{
 }
 
 
-h1{
+.mainText{
     font-size: 6rem;
     width: 258px;
     font-family: sans-serif;
-    color : white;
+    color : rgb(0, 63, 0);
     position : absolute;
     top: 200px;
     left: 400px;
@@ -41,7 +95,6 @@ h1{
     to {
         left : 400px;
         opacity: 1;
-
     }
 }
 

@@ -1,4 +1,4 @@
-let mainText = document.querySelector("h1");
+let mainText = document.querySelector("h2");
 
 window.addEventListener('scroll', function() {
     let value = window.scrollY
